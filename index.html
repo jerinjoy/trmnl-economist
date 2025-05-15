@@ -25,7 +25,7 @@
     }
     h1 {
       font-size: 1.1em;
-      margin-top: 20px;
+      margin-top: 10px;
       border-top: 1px solid #ccc;
       padding-top: 5px;
     }
@@ -47,14 +47,15 @@
     .article {
       margin-bottom: 10px;
     }
-    .section {
-      display: inline-block;
-      vertical-align: top;
-      width: 32%;
-      margin-right: 2%;
+    #feeds {
+      display: flex;
+      justify-content: space-between;
+      gap: 10px;
     }
-    .section:last-child {
-      margin-right: 0;
+    .section {
+      flex: 1;
+      max-width: 260px;
+      box-sizing: border-box;
     }
   </style>
 </head>
